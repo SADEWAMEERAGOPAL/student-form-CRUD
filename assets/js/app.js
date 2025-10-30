@@ -135,8 +135,15 @@ stdarr.splice(getIndex, 1);
 
 
 ele.closest("tr").remove();
- }
+
+let alltrs=[...document.querySelectorAll("#studenttable tr")]
+
+  alltrs.forEach((tr, i)=>{
+    tr.firstElementChild.innerHTML=i+1;
+  })
 }
+}
+ 
 
 
 
