@@ -160,6 +160,8 @@ const Onstdsubmit=(eve)=>{
     stdId: uuid(),
   }
 
+  studenForm.reset();
+
   stdarr.push(cerate_ob)
 
 
